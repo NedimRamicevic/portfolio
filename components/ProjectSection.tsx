@@ -18,7 +18,7 @@ const projects = [
     description: "Netflix Clone is a web app that mimics the Netflix UI.",
     image: "/netflix.png",
     github: "",
-    link: "https://neim-netflix-clone.netlify.app/home",
+    link: "https://neim-netflix-clone.netlify.app",
   },
   {
     name: "Tattoo Shop Website",
