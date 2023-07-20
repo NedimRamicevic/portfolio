@@ -77,8 +77,8 @@ const AboutSection = () => {
             <Image
               src="/1.jpg"
               alt=""
-              width={325}
-              height={325}
+              width={300}
+              height={300}
               className="hidden md:block md:relative md:bottom-4 md:left-64 md:z-0 rounded-2xl"
             />
           </div>
