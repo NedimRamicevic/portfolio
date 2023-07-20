@@ -79,7 +79,7 @@ const AboutSection = () => {
               alt=""
               width={300}
               height={300}
-              className="hidden md:block md:relative md:bottom-4 md:left-64 md:top-44 md:z-0 rounded-2xl"
+              className="hidden md:block md:relative md:bottom-4 md:left-64 md:top-24 md:z-0 rounded-2xl"
             />
           </div>
         </div>
