@@ -6,28 +6,29 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Portfolio Website",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "This is my personal portfolio website. It is built with Next.js and Tailwind CSS. It is hosted on Vercel.",
     image: "/1.jpg",
     github: "",
-    link: "",
+    link: "https://portfolio-taupe-zeta-24.vercel.app/?vercelToolbarCode=N7QwayH-efmltGl",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/1.jpg",
+    name: "Netflix Clone",
+    description: "Netflix Clone is a web app that mimics the Netflix UI.",
+    image: "/netflix.png",
     github: "",
-    link: "",
+    link: "https://neim-netflix-clone.netlify.app/home",
   },
   {
-    name: " Family Photos",
+    name: "Tattoo Shop Website",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/1.jpg",
+      "This is a website for a tattoo shop. It is built with Next.js and Tailwind CSS. It is hosted on Vercel.",
+    image: "/tattoosite.png",
     github: "",
-    link: "",
+    link: "https://tattoo-site-nextjs.vercel.app/?vercelToolbarCode=VgVF1ni-5vRNgsr",
   },
+  
 ]
 
 const ProjectsSection = () => {
