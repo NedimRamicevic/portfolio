@@ -1,7 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import { useState } from "react"
-import Link from "next/link"
+import { Link } from "react-scroll"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
@@ -19,11 +19,11 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "About",
-    page: "/about",
+    page: "about",
   },
   {
     label: "Projects",
-    page: "/my-projects",
+    page: "projects",
   },
 ]
 
@@ -37,7 +37,7 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link href="/">
+            <Link to="Home">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-2xl font-bold">NUMUNE</h2>
               </div>
@@ -64,7 +64,7 @@ export default function Navbar() {
                 return (
                   <Link
                     key={idx}
-                    href={item.page}
+                    to={item.page}
                     className=
                       "block lg:inline-block   hover:text-neutral-500 "
                     
