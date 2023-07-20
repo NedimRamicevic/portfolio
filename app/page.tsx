@@ -1,8 +1,15 @@
 import React from 'react'
+import HeroSection from '@/components/HeroSection'
+import AboutSection from '@/components/AboutSection'
+import ProjectsSection from '@/components/ProjectSection'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <main className='bg-white dark:bg-black duration-700 text-black dark:text-white px-16'>
+      <HeroSection/>
+      <AboutSection/>
+      <ProjectsSection/>
+    </main>
   )
 }
 
