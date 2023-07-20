@@ -10,7 +10,7 @@ const projects = [
     description:
       "This is my personal portfolio website. It is built with Next.js and Tailwind CSS. It is hosted on Vercel.",
     image: "/1.jpg",
-    github: "",
+    github: "https://github.com/NedimRamicevic/portfolio",
     link: "https://portfolio-taupe-zeta-24.vercel.app/?vercelToolbarCode=N7QwayH-efmltGl",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description:
       "This is a website for a tattoo shop. It is built with Next.js and Tailwind CSS. It is hosted on Vercel.",
     image: "/tattoosite.png",
-    github: "",
+    github: "https://github.com/NedimRamicevic/tattoo_site_nextjs",
     link: "https://tattoo-site-nextjs.vercel.app/?vercelToolbarCode=VgVF1ni-5vRNgsr",
   },
   
