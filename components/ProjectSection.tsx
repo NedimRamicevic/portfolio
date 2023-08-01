@@ -14,6 +14,14 @@ const projects = [
     link: "https://portfolio-taupe-zeta-24.vercel.app/?vercelToolbarCode=N7QwayH-efmltGl",
   },
   {
+    name: "Films App",
+    description:
+      "This is a web app that shows the most popular movies and tv shows. It is built with React and Tailwind CSS. It is hosted on Netlify.",
+    image: "/films.png",
+    github: "https://github.com/NedimRamicevic/freelance-portfolio",
+    link: "https://freelance-portfolio-eta.vercel.app/",
+  },
+  {
     name: "Netflix Clone",
     description: "Netflix Clone is a web app that mimics the Netflix UI.",
     image: "/netflix.png",
@@ -28,6 +36,7 @@ const projects = [
     github: "https://github.com/NedimRamicevic/tattoo_site_nextjs",
     link: "https://tattoo-site-nextjs.vercel.app/?vercelToolbarCode=VgVF1ni-5vRNgsr",
   },
+  
   
 ]
 
