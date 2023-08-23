@@ -14,6 +14,14 @@ const projects = [
     link: "https://portfolio-taupe-zeta-24.vercel.app/?vercelToolbarCode=N7QwayH-efmltGl",
   },
   {
+    name: "Ecommerce Website",
+    description:
+      "This is an ecommerce website for a clothing store. It is built with Angular and Tailwind CSS. It is hosted on Vercel.",
+    image: "/ecommerce.png",
+    github: "https://github.com/NedimRamicevic/ng-ecommerce",
+    link: "https://vercel.com/nedimramicevic/ng-ecommerce",
+  },
+  {
     name: "Films App",
     description:
       "This is a web app that shows the most popular movies and tv shows. It is built with React and Tailwind CSS. It is hosted on Netlify.",
