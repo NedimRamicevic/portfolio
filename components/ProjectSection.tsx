@@ -18,8 +18,8 @@ const projects = [
     description:
       "This is an ecommerce website for a clothing store. It is built with Angular and Tailwind CSS. It is hosted on Vercel.",
     image: "/ecommerce.png",
-    github: "https://github.com/NedimRamicevic/ng-ecommerce",
-    link: "https://ng-ecommerce-delta.vercel.app/home",
+    github: "https://github.com/NedimRamicevic/e-commerce-site",
+    link: "https://e-commerce-nextjs-iota.vercel.app/",
   },
   {
     name: "Films App",
